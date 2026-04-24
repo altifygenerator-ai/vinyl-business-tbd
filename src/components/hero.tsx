@@ -7,7 +7,7 @@ import { fadeUp, staggerContainer } from "@/lib/animations";
 export default function Hero() {
   return (
     <section className="relative h-[90vh] w-full overflow-hidden flex items-center">
-      {/* Background Image */}
+      
       <div className="absolute inset-0">
         <img
           src={heroData.backgroundImage}
@@ -15,11 +15,11 @@ export default function Hero() {
           className="w-full h-full object-cover object-center scale-[1.05]"
         />
 
-        {/* Gradient overlay for readability */}
+        
         <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/45 to-black/20" />
       </div>
 
-      {/* Content */}
+      
       <motion.div
         className="container relative z-10 pt-20"
         variants={staggerContainer}

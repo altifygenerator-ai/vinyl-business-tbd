@@ -22,10 +22,10 @@ export default function TrustBar() {
               variants={fadeUp}
               className="flex items-center gap-3 text-sm md:text-base text-neutral-200"
             >
-              {/* Accent Dot */}
+              
               <span className="w-2 h-2 rounded-full bg-[var(--accent)]" />
 
-              {/* Text */}
+              
               <span>{item}</span>
             </motion.div>
           ))}

@@ -32,12 +32,12 @@ export default function SiteHeader() {
     >
       <div className="container flex items-center justify-between h-[80px]">
 
-        {/* Logo */}
+       
         <Link href="/" className="text-lg md:text-xl font-semibold">
           {siteData.name}
         </Link>
 
-        {/* Nav */}
+        
         <nav className="hidden md:flex gap-8">
           {navLinks.map((link, i) => (
             <Link
@@ -50,10 +50,10 @@ export default function SiteHeader() {
           ))}
         </nav>
 
-        {/* Right side */}
+      
         <div className="flex items-center gap-4">
 
-          {/* Facebook (only show if exists) */}
+         
           {siteData.socials.facebook && (
             <a
               href={siteData.socials.facebook}
@@ -64,7 +64,7 @@ export default function SiteHeader() {
             </a>
           )}
 
-          {/* Phone (only if exists) */}
+          
           {siteData.phone && (
             <a
               href={`tel:${siteData.phone.replace(/\D/g, "")}`}
@@ -74,7 +74,7 @@ export default function SiteHeader() {
             </a>
           )}
 
-          {/* CTA */}
+          
           <a href="#contact" className="btn-primary text-sm">
             Request Quote
           </a>

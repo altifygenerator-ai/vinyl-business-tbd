@@ -12,7 +12,7 @@ export default function WhyChooseUs() {
     >
       <div className="container">
 <div className="grid md:grid-cols-2 gap-12 items-center">
-  {/* Left Image */}
+  
   <motion.div
     variants={fadeUp}
     initial="hidden"
@@ -27,7 +27,7 @@ export default function WhyChooseUs() {
     />
   </motion.div>
 
-  {/* Right Content */}
+ 
   <motion.div
     variants={staggerContainer}
     initial="hidden"

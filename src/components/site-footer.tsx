@@ -16,7 +16,7 @@ export default function SiteFooter() {
           initial="hidden"
           whileInView="show"
         >
-          {/* Brand */}
+         
           <motion.div variants={fadeUp}>
             <h3>{siteData.name}</h3>
             <p className="mt-3 text-neutral-300 max-w-sm">
@@ -25,7 +25,7 @@ export default function SiteFooter() {
             </p>
           </motion.div>
 
-          {/* Nav */}
+          
           <motion.div variants={fadeUp}>
             <h4 className="text-sm text-neutral-400">Navigation</h4>
             <ul className="mt-4 space-y-2">
@@ -42,7 +42,7 @@ export default function SiteFooter() {
             </ul>
           </motion.div>
 
-          {/* Contact */}
+         
           <motion.div variants={fadeUp}>
             <h4 className="text-sm text-neutral-400">Contact</h4>
 
